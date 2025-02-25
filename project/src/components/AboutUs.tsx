@@ -13,10 +13,13 @@ const AboutUs = () => {
             <p className="text-gray-700 leading-relaxed">
               Nossa equipe é composta por especialistas em Medicina Veterinária e Zootecnia, profissionais altamente capacitados que unem conhecimento técnico e inovação para transformar o setor agropecuário. Nascemos no coração do agronegócio, no estado de Goiás, e já conquistamos reconhecimento no setor, alcançando o pódio no Agrostartup 2024, em Goiânia.
             </p>
+            <div className="flex justify-center mt-6">
+              <img src="/images/equipe.jpg" alt="Equipe" className="rounded-lg shadow-lg w-full max-w-md" />
+            </div>
           </div>
-          <div className="bg-gray-100 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-[#2b50a5] mb-4">Nossa Missão</h3>
-            <p className="text-gray-700 leading-relaxed">
+          <div className="bg-[#2b50a5] p-8 rounded-lg">
+            <h3 className="text-2xl font-bold text-[#f7fbf9] mb-4">Nossa Missão</h3>
+            <p className="text-[#f7fbf9] leading-relaxed">
               Acreditamos que a tecnologia é uma aliada fundamental para o futuro da pecuária leiteira, proporcionando diagnósticos mais rápidos e precisos, reduzindo perdas e melhorando a produtividade no campo. Nossa missão é revolucionar a detecção da mastite, promovendo um agro mais sustentável, tecnológico e eficiente.
             </p>
           </div>
