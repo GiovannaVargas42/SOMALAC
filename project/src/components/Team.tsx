@@ -1,26 +1,30 @@
 import React from 'react';
-import { User } from 'lucide-react';
 
 const team = [
   {
     name: 'Thiago Marinz',
     role: 'Médico Veterinário',
+    image: '/thiago.jpg'
   },
   {
     name: 'Giovanna Vargas',
     role: 'Graduanda em Medicina Veterinária',
+    image: '/giovanna.jpg'
   },
   {
     name: 'Isabella Borges',
     role: 'Médica Veterinária',
+    image: '/isabella.jpg'
   },
   {
     name: 'Jakelaine Lopes',
     role: 'Médica Veterinária',
+    image: '/jakelaine.jpg'
   },
   {
     name: 'Ezequiel Cardoso',
     role: 'Graduando em Zootecnia',
+    image: '/ezequiel.jpg'
   }
 ];
 
@@ -35,9 +39,13 @@ const Team = () => {
               {/* Quadrado Azul Inclinado */}
               <div className="absolute -z-10 inset-0 transform rotate-45 bg-[#2b50a5] w-32 h-32 mx-auto transition-transform duration-300 hover:scale-110"></div>
               
-              {/* Ícone com Fundo Azul Escuro */}
-              <div className="w-24 h-24 bg-[#2b50a5] rounded-full flex items-center justify-center mx-auto mb-4">
-                <User className="w-12 h-12 text-white" />
+              {/* Imagem do Integrante */}
+              <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               {/* Nome e Cargo do Integrante */}

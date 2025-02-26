@@ -4,10 +4,16 @@ const Incubator = () => {
   return (
     <section id="estufa" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center text-[#2b50a5] mb-12">Nossa Estufa de Cultivo</h2>
+        <h2 className="text-3xl font-bold text-center text-[#2b50a5] mb-12">
+          Nossa Estufa de Cultivo
+        </h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-200 rounded-lg aspect-video">
-            {/* Espaço reservado para a foto da estufa */}
+          <div className="bg-white-200 rounded-lg aspect-square">
+            <img
+              src="\public\estufa.jpg"
+              alt="Estufa de Cultivo"
+              className="w-120 h-120 object-cover rounded-lg"
+            />
           </div>
           <div className="space-y-6">
             <p className="text-gray-700 leading-relaxed">
