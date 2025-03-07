@@ -3,7 +3,18 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="pt-16 bg-[#2b50a5] bg-opacity-90 bg-gradient-to-b to-white relative text-white">
+      {/* Imagem de fundo principal */}
       <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/vacas-leiteiras.png')" }}></div>
+      
+      {/* Nova imagem de fundo secundária */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-40" 
+        style={{ 
+          backgroundImage: "url('/backgroundcell2.webp')",
+          mixBlendMode: 'lighten'
+        }}
+      ></div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
         <div className="text-left">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
